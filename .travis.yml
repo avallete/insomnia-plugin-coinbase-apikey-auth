@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - 14
+stages:
+  - name: test
+  - name: release
+    if: branch = master
+jobs:
+  include:
+    - stage: test
+      script:
+        - npm install -D
+        - npm run build
+        - npm run test
+    - stage: release
+      script:
+        - npm install -D
+        - npm run build
+        - npx semantic-release
