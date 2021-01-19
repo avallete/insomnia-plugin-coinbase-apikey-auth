@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2015",
-    "module": "ES2020",
+    "module": "commonJS",
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -12,6 +12,7 @@
     "newLine": "crlf"
   },
   "include": [
-    "./src"
+    "./src",
+    "./index.ts"
   ]
 }
