@@ -1,0 +1,16 @@
+{
+  "name": "insomnia-plugin-coinbase-apikey-auth",
+  "version": "1.0.0",
+  "description": "A simple insomnia plugin to easily authenticate and perform request to Coinbase.com using API_KEY.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [],
+  "author": "Andrew Valleteau",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
