@@ -4,6 +4,7 @@
 
 # Insomnia CoinBase ApiKey Auth Plugin
 
+[![npm version](https://badge.fury.io/js/insomnia-plugin-coinbase-apikey-auth.svg)](https://badge.fury.io/js/insomnia-plugin-coinbase-apikey-auth)
 [![Build Status](https://travis-ci.com/avallete/insomnia-plugin-coinbase-apikey-auth.svg?token=txZxL36xTEx59s4pStm6&branch=master)](https://travis-ci.com/avallete/insomnia-plugin-coinbase-apikey-auth)
 
 A simple insomnia plugin to easily authenticate and perform request to Coinbase.com using API_KEY.
