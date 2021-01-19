@@ -2,7 +2,7 @@
 <img src="https://raw.githubusercontent.com/avallete/insomnia-plugin-coinbase-apikey-auth/master/icon.svg">
 </p>
 
-#Insomnia CoinBase ApiKey Auth Plugin
+# Insomnia CoinBase ApiKey Auth Plugin
 
 [![Build Status](https://travis-ci.com/avallete/insomnia-plugin-coinbase-apikey-auth.svg?token=txZxL36xTEx59s4pStm6&branch=master)](https://travis-ci.com/avallete/insomnia-plugin-coinbase-apikey-auth)
 
