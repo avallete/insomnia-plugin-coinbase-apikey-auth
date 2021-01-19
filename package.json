@@ -15,6 +15,9 @@
     "name": "coinbase-apikey-auth",
     "diplayName": "CoinBase ApiKey Authentication Handler",
     "description": "A simple insomnia plugin to easily authenticate and perform request to Coinbase.com using API_KEY.",
+    "images": {
+      "icon": "icon.svg"
+    },
     "publisher": {
       "name": "Andrew Valleteau"
     }
@@ -50,6 +53,6 @@
     "typescript": "^4.1.3"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   }
 }
