@@ -2,18 +2,25 @@ language: node_js
 node_js:
   - 14
 stages:
+  - name: lint
   - name: test
   - name: release
     if: branch = master
+install:
+  - npm ci
 jobs:
   include:
+    - stage: lint
+      script:
+        - npm run lint
     - stage: test
       script:
-        - npm install -D
-        - npm run build
         - npm run test
     - stage: release
       script:
-        - npm install -D
         - npm run build
         - npx semantic-release
+
+cache:
+  directories:
+    - "$HOME/.npm"
